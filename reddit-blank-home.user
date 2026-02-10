@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove Reddit Home feed and side panels
-// @namespace    https://tampermonkey.net/
+// @namespace    https://github.com/skeplys83/un-bullshit-Reddit
 // @version      0.6
 // @description  Keeps Reddit’s top header, blanks the homepage feed, hides sidebars on all /r/* pages including posts. Re-applies on SPA navigation.
 // @match        https://www.reddit.com/*
