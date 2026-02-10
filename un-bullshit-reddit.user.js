@@ -22,8 +22,7 @@
         filterKeywords: GM_getValue('filterKeywords', []),
         hideAwards: GM_getValue('hideAwards', false),
         hidePromotedPosts: GM_getValue('hidePromotedPosts', true),
-        cleanUI: GM_getValue('cleanUI', true),
-        enableAutoScroll: GM_getValue('enableAutoScroll', false)
+        cleanUI: GM_getValue('cleanUI', true)
     };
 
     // Add custom styles
@@ -204,8 +203,13 @@
         filterContent();
 
         // Watch for new content (for infinite scroll)
+        let filterTimeout;
         const observer = new MutationObserver((mutations) => {
-            filterContent();
+            // Debounce to avoid excessive filtering
+            clearTimeout(filterTimeout);
+            filterTimeout = setTimeout(() => {
+                filterContent();
+            }, 150);
         });
 
         observer.observe(document.body, {
