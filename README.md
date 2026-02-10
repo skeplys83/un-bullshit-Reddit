@@ -8,10 +8,9 @@ A small Tampermonkey userscript that customizes Reddit’s UI:
 
 ## Installation
 
-1. Install a userscript manager like **Tampermonkey**
-2. Open the raw userscript file:  
-   `reddit-blank-home.user.js`
-3. Tampermonkey will prompt you to install — confirm
+1. [Go to the script on greasyfork](https://greasyfork.org/en/scripts/565877-remove-reddit-home-feed-and-side-panels)
+1. Press Install
+2. Enjoy
 
 Alternatively, copy the script manually into a new Tampermonkey script.
 
