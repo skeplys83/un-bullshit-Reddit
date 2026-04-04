@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove Reddit Home feed and side panels
 // @namespace    https://github.com/skeplys83/un-bullshit-Reddit
-// @version      0.7
+// @version      0.8
 // @description  Removes the home feed + left/right side panels across Reddit (subreddits, posts, profiles). SPA-safe (no infinite loading).
 // @match        https://www.reddit.com/*
 // @run-at       document-start
