@@ -30,10 +30,7 @@
   ];
 
   const RIGHT_SIDEBAR_SELECTORS = [
-    ".right-sidebar",
-    "[data-testid='right-sidebar']",
-    "[data-testid='subreddit-sidebar']",
-    "#right-sidebar",
+    "recent-posts",
     // NOTE: Do NOT use "aside" — it's too broad and can break app layout/loading.
   ];
 
