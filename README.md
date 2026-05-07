@@ -6,6 +6,10 @@ A small Tampermonkey userscript that customizes Reddit’s UI:
 - Hides left and right sidebars on all subreddit pages, including posts and profile
 - Works with Reddit’s single-page app navigation (no refresh required)
 
+<p align="center">
+  <img width="1418" height="781" alt="image" src="https://github.com/user-attachments/assets/fe4035c7-3c79-4283-8de8-d426512d0298" />
+</p>
+
 ## Installation (Tampermonkey)
 
 1. [Go to the script on greasyfork](https://greasyfork.org/en/scripts/565877-remove-reddit-home-feed-and-side-panels)
